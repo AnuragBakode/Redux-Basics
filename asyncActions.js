@@ -1,3 +1,7 @@
+// Thunk is a middle ware which is used  specifically used to create Action creator
+// (Async Action creator) which can return  a fucntion and that function
+// recieves a dispatch method throgh which we can dispatch our normal actions
+
 const redux = require('redux');
 const createStore = redux.createStore
 const applyMiddleware = redux.applyMiddleware
